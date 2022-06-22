@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ec4a20eeb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Titolo</title>
+</head>
+
+<body>
+
+    <!-- titolo pagina -->
+    <div class="container py-5">
+        <div class="row text-center">
+            <div class="col">
+                <h1>
+                    CALCOLA IL PREZZO DEL TUO BIGLIETTO
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row bx-sdw justify-content-evenly bg-light rounded-3 py-3">
+            <div class="col-3 text-center">
+                <label for="">
+                    <h5>Nome e Cognome</h5>
+                </label>
+                <input id="name-surname" type="text">
+            </div>
+            <div class="col-3 text-center">
+                <label for="">
+                    <h5>KM da percorrere</h5>
+                </label>
+
+                <input type="text">
+
+            </div>
+            <div class="col-3 d-flex flex-column">
+                <label for="">
+                    <h5>Fascia d'eta'</h5>
+                </label>
+                <div>
+                    <input type="text"><select class="border-0" name="" id=""></select>
+                </div>
+
+
+            </div>
+            <div class="col-6 justify-content-center py-4 d-flex">
+                <div class="px-2">
+                    <button id="button-generator" class="p-2 btn-border rounded-3 fw-bold bg-dark text-white">Genera</button>
+                </div>
+                <div class="px-2">
+                    <button class="p-2 btn-border rounded-3 fw-bold bg-dark text-white">Annulla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-center py-3">IL TUO BIGLIETTO</h1>
+    <div class="container">
+        <div class="row bx-sdw justify-content-evenly bg-light rounded-3 py-3">
+            <div class="col-12">
+                <h3 class="fw-bold">DETTAGLIO PASSEGGERO</h3>
+            </div>
+            <hr class="m-0">
+            <div class="col-4 bg-secondary mh-100">
+                <span class="fw-bold">NOME PASSEGGERO : <strong id="passanger"></strong> </span>
+            </div>
+            <div class="col-2"><span class="fw-bold">OFFERTA</span>
+                <div class="py-4">
+
+                </div>
+            </div>
+            <div class="col-2"><span class="fw-bold">CARROZZA</span>
+                <div class="py-4">
+
+                </div>
+            </div>
+            <div class="col-2"><span class="fw-bold">CODICE CP</span>
+                <div class="py-4">
+
+                </div>
+            </div>
+            <div class="col-2"><span class="fw-bold">COSTO BIGLIETTO</span>
+                <div class="py-4">
+
+                </div>
+            </div>
+            <hr class="m-0">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
